@@ -16,36 +16,27 @@ namespace tioga_kynema_ugf {
 void
 TiogaOptions::load(const YAML::Node& node)
 {
-  const YAML::Node symmetryDirection = node["symmetry_direction"];
-  if (symmetryDirection)
-    symmetryDir_ = symmetryDirection.as<int>();
+  if (node["symmetry_direction"])
+    symmetryDir_ = node["symmetry_direction"].as<int>();
 
-  const YAML::Node reduceFringes = node["reduce_fringes"];
-  if (reduceFringes)
-    reduceFringes_ = reduceFringes.as<bool>();
+  if (node["reduce_fringes"])
+    reduceFringes_ = node["reduce_fringes"].as<bool>();
 
-  const YAML::Node numFringe = node["num_fringe"];
-  if (numFringe) {
+  if (node["num_fringe"]) {
     hasNumFringe_ = true;
-    nFringe_ = numFringe.as<int>();
+    nFringe_ = node["num_fringe"].as<int>();
   }
 
-  const YAML::Node numExclude = node["num_exclude"];
-  if (numExclude) {
+  if (node["num_exclude"]) {
     hasMexclude_ = true;
-    mExclude_ = numExclude.as<int>();
+    mExclude_ = node["num_exclude"].as<int>();
   }
 
-  const YAML::Node cellResolutionMultiplier =
-    node["cell_resolution_multiplier"];
-  if (cellResolutionMultiplier) {
-    cellResMult_ = cellResolutionMultiplier.as<double>();
+  if (node["cell_resolution_multiplier"]) {
+    cellResMult_ = node["cell_resolution_multiplier"].as<double>();
   }
-
-  const YAML::Node nodeResolutionMultiplier =
-    node["node_resolution_multiplier"];
-  if (nodeResolutionMultiplier) {
-    nodeResMult_ = nodeResolutionMultiplier.as<double>();
+  if (node["node_resolution_multiplier"]) {
+    nodeResMult_ = node["node_resolution_multiplier"].as<double>();
   }
 }
 
