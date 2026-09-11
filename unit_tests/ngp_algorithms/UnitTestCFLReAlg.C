@@ -8,6 +8,7 @@
 //
 
 #include <random>
+#include <limits>
 
 #include "kernels/UnitTestKernelUtils.h"
 #include "UnitTestHelperObjects.h"
@@ -77,4 +78,17 @@ TEST_F(MomentumKernelHex8Mesh, NGP_courant_reynolds)
   timeIntegrator.set_time_step(dt + 1.);
   const auto dt_get_again = timeIntegrator.get_time_step();
   EXPECT_NEAR(dt_get_again, dt + 1.0, 1.0e-14);
+
+  helperObjs.realm.targetCourant_ = 2.0;
+  helperObjs.realm.timeStepChangeFactor_ = 1.2;
+  timeIntegrator.set_time_step(dt);
+
+  helperObjs.realm.maxCourant_ = 0.0;
+  EXPECT_NEAR(helperObjs.realm.compute_adaptive_time_step(), dt * 1.2, 1.0e-14);
+
+  helperObjs.realm.maxCourant_ = -1.0;
+  EXPECT_NEAR(helperObjs.realm.compute_adaptive_time_step(), dt * 1.2, 1.0e-14);
+
+  helperObjs.realm.maxCourant_ = std::numeric_limits<double>::quiet_NaN();
+  EXPECT_NEAR(helperObjs.realm.compute_adaptive_time_step(), dt * 1.2, 1.0e-14);
 }
