@@ -2061,7 +2061,7 @@ Realm::compute_adaptive_time_step()
 
   // Courant number is not yet available (first adaptive step), quiescent, or
   // invalid; avoid divide-by-zero/NaN and preserve existing +inf-path behavior.
-  if (!(maxCourant_ > std::numeric_limits<double>::min())) {
+  if (!(maxCourant_ > 0.0)) {
     return dtN * timeStepChangeFactor_;
   }
 
