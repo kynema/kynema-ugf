@@ -2059,6 +2059,12 @@ Realm::compute_adaptive_time_step()
   // extract current time
   const double dtN = get_time_step();
 
+  // Courant number is not yet available (first adaptive step), quiescent, or
+  // invalid; avoid divide-by-zero/NaN and preserve existing +inf-path behavior.
+  if (!(maxCourant_ > std::numeric_limits<double>::min())) {
+    return dtN * timeStepChangeFactor_;
+  }
+
   // ratio of how off we are
   const double factorOff = targetCourant_ / maxCourant_;
 
