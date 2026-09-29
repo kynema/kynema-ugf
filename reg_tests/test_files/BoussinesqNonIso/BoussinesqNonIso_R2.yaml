@@ -157,7 +157,7 @@ realms:
             thermal_expansion_coefficient: 1.0
 
     solution_norm:
-      output_frequency: 160
+      output_frequency: 80
       file_name: BoussinesqNonIso_R2.dat
       spacing: 12
       percision: 6
@@ -168,7 +168,7 @@ realms:
 
     output:
       output_data_base_name: BoussinesqNonIso_R2.e
-      output_frequency: 40
+      output_frequency: 20
       output_node_set: no 
       output_variables:
        - velocity

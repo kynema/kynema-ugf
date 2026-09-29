@@ -157,7 +157,7 @@ realms:
             thermal_expansion_coefficient: 1.0
 
     solution_norm:
-      output_frequency: 40
+      output_frequency: 20
       file_name: BoussinesqNonIso_R0.dat
       spacing: 12
       percision: 6
