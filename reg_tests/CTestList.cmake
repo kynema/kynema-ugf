@@ -270,7 +270,7 @@ if(NOT ENABLE_CUDA AND NOT ENABLE_ROCM)
   # Convergence tests
   #=============================================================================
   if(ENABLE_TRILINOS_SOLVERS)
-    add_test_v2(BoussinesqNonIso 8 24135.8)
+    add_test_v2(BoussinesqNonIso 8 15135.8)
   endif()
 
   #=============================================================================
