@@ -721,6 +721,7 @@ TurbulenceAveragingPostProcessing::execute()
     KynemaUGFEnv::self().kynema_ugfOutputP0()
       << "Filter Size " << currentTimeFilter_ << std::endl;
   } else if (averagingType_ == MOVING_EXPONENTIAL) {
+    oldTimeFilter = forcedReset_ ? 0.0 : oldTimeFilter;
     const double timeFilter = oldTimeFilter + dt;
 
     if (timeFilter > timeFilterInterval_) {
@@ -729,7 +730,6 @@ TurbulenceAveragingPostProcessing::execute()
     } else {
       currentTimeFilter_ = timeFilter;
     }
-    zeroCurrent = forcedReset_ ? 0.0 : 1.0;
   }
 
   // deactivate hard reset
