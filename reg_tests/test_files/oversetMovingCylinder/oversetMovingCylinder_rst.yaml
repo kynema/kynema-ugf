@@ -187,6 +187,7 @@ realms:
         target_name: wall
 
     turbulence_averaging:
+      forced_reset: yes
       time_filter_interval: 100000.0
 
       specifications:
