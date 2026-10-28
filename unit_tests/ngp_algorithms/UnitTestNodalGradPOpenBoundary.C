@@ -58,6 +58,14 @@ TEST_F(LowMachKernelHex8Mesh, NGP_nodal_grad_popen)
   stk::mesh::field_fill(1.0, *pressure_);
   stk::mesh::field_fill(2.0, *dnvField_);
 
+  for (stk::mesh::FieldBase* f : {static_cast<stk::mesh::FieldBase*>(pressure_),
+                                  static_cast<stk::mesh::FieldBase*>(dnvField_),
+                                  static_cast<stk::mesh::FieldBase*>(dynP_),
+                                  static_cast<stk::mesh::FieldBase*>(exposedAreaVec_)}) {
+    f->modify_on_host();
+    f->sync_to_device();
+  }
+
   ngpPres.modify_on_host();
   ngpDnvF.modify_on_host();
   ngpPres.sync_to_device();

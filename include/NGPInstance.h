@@ -73,7 +73,7 @@ destroy(T* obj)
   const std::string debuggingName(typeid(T).name());
   Kokkos::parallel_for(
     debuggingName, DeviceRangePolicy(0, 1),
-    KOKKOS_LAMBDA(const int) { obj->~T(); });
+    KOKKOS_LAMBDA(const int) { obj->T::~T(); });
   kokkos_free_on_device(obj);
 }
 
