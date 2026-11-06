@@ -51,10 +51,12 @@ std::vector<DoubleType>
 me_shape(stk::topology topo, QuadRank r, QuadType q)
 {
   using Repo = sierra::kynema_ugf::MasterElementRepo;
-  auto* meHost = (r == QuadRank::SCS) ? Repo::get_surface_master_element_on_host(topo)
-                                      : Repo::get_volume_master_element_on_host(topo);
-  auto* meDev = (r == QuadRank::SCS) ? Repo::get_surface_master_element_on_dev(topo)
-                                     : Repo::get_volume_master_element_on_dev(topo);
+  auto* meHost = (r == QuadRank::SCS)
+                   ? Repo::get_surface_master_element_on_host(topo)
+                   : Repo::get_volume_master_element_on_host(topo);
+  auto* meDev = (r == QuadRank::SCS)
+                  ? Repo::get_surface_master_element_on_dev(topo)
+                  : Repo::get_volume_master_element_on_dev(topo);
 
   const int nip = meHost->num_integration_points();
   const int npe = meHost->nodesPerElement_;
@@ -63,7 +65,8 @@ me_shape(stk::topology topo, QuadRank r, QuadType q)
   Kokkos::parallel_for(
     Kokkos::RangePolicy<Kokkos::DefaultExecutionSpace>(0, 1),
     KOKKOS_LAMBDA(int) {
-      sierra::kynema_ugf::SharedMemView<DoubleType**, sierra::kynema_ugf::DeviceShmem>
+      sierra::kynema_ugf::SharedMemView<
+        DoubleType**, sierra::kynema_ugf::DeviceShmem>
         v(d_shp.data(), nip, npe);
       if (q == QuadType::SHIFTED) {
         meDev->shifted_shape_fcn<>(v);
