@@ -41,6 +41,7 @@ public:
   KOKKOS_DEFAULTED_FUNCTION
   Kernel() = default;
 
+  KOKKOS_DEFAULTED_FUNCTION
   virtual ~Kernel() = default;
 
   virtual Kernel* create_on_device() { return this; }

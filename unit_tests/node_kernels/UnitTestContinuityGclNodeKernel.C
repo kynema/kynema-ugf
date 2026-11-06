@@ -80,8 +80,10 @@ my_destroy(T* obj)
 void
 test_kernel_on_device(const sierra::kynema_ugf::ContinuityGclNodeKernel& kernel)
 {
-  sierra::kynema_ugf::ContinuityGclNodeKernel* deviceKernel = my_create(kernel);
-  my_destroy(deviceKernel);
+  using namespace sierra::kynema_ugf;
+  auto* deviceKernel = kynema_ugf_ngp::create<ContinuityGclNodeKernel>(kernel);
+  kynema_ugf_ngp::destroy<ContinuityGclNodeKernel>(deviceKernel);
+  Kokkos::fence();
 }
 
 TEST_F(ContinuityKernelHex8Mesh, NGP_continuity_gcl_node_kernel)

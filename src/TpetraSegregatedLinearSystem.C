@@ -1147,7 +1147,7 @@ segregated_sum_into_row(
     }
 
     if (offset < length) {
-      STK_ThrowAssertMsg(
+      STK_NGP_ThrowAssertMsg(
         std::isfinite(input_values[perm_index * numDof]), "Inf or NAN lhs");
       if (forceAtomic) {
         Kokkos::atomic_add(
