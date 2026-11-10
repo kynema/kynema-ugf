@@ -361,7 +361,6 @@ HypreUVWLinearSystem::zeroSystem()
   HYPRE_IJMatrixSetObjectType(mat_, HYPRE_PARCSR);
   HYPRE_IJMatrixInitialize(mat_);
   HYPRE_IJMatrixGetObject(mat_, (void**)&(solver->parMat_));
-  HYPRE_IJMatrixSetConstantValues(mat_, 0.0);
 
   for (unsigned i = 0; i < nDim_; ++i) {
     HYPRE_IJVectorCreate(comm, iLower_, iUpper_, &rhs_[i]);
