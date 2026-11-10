@@ -43,11 +43,15 @@ struct FieldInfoNGP
   FieldInfoNGP(NGPDoubleFieldType& fld, unsigned scalars)
     : field(fld), scalarsDim1(scalars), scalarsDim2(0)
   {
+    fld.sync_to_device();
+    field = fld;
   }
   FieldInfoNGP(
     NGPDoubleFieldType& fld, unsigned tensorDim1, unsigned tensorDim2)
     : field(fld), scalarsDim1(tensorDim1), scalarsDim2(tensorDim2)
   {
+    fld.sync_to_device();
+    field = fld;
   }
   KOKKOS_FUNCTION
   FieldInfoNGP(const FieldInfoNGP& rhs)
@@ -69,7 +73,11 @@ struct FieldInfoNGP
 
 struct CoordFieldInfo
 {
-  CoordFieldInfo(NGPDoubleFieldType& fld) : coordField(fld) {}
+  CoordFieldInfo(NGPDoubleFieldType& fld) : coordField(fld)
+  {
+    fld.sync_to_device();
+    coordField = fld;
+  }
 
   KOKKOS_DEFAULTED_FUNCTION
   CoordFieldInfo() = default;

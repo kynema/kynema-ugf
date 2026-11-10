@@ -209,7 +209,7 @@ TEST_F(EntityLidFixture, all_active_stk_entities_have_a_valid_tpetra_lid)
   Kokkos::deep_copy(elid_h, elid);
   for (const auto* ib : bulk.get_buckets(stk::topology::NODE_RANK, active)) {
     for (const auto node : *ib) {
-      ASSERT_NE(static_cast<unsigned>(elid(node.local_offset())), invalid);
+      ASSERT_NE(static_cast<unsigned>(elid_h(node.local_offset())), invalid);
     }
   }
 }
@@ -225,7 +225,7 @@ TEST_F(EntityLidFixture, all_active_stk_entities_have_a_unique_tpetra_lid)
   std::set<typename Tpetra::Map<>::local_ordinal_type> lids;
   for (const auto* ib : bulk.get_buckets(stk::topology::NODE_RANK, active)) {
     for (const auto node : *ib) {
-      auto it = lids.insert(elid(node.local_offset()));
+      auto it = lids.insert(elid_h(node.local_offset()));
       ASSERT_TRUE(it.second);
     }
   }

@@ -146,10 +146,6 @@ NodalGradPOpenBoundary<AlgTraits>::execute()
 
       const auto elem_p_field = elemView.get_scratch_view_1D(pressureField);
 
-      const auto meFaceViews =
-        fdata.simdFaceView.get_me_views(CURRENT_COORDINATES);
-      const auto meElemViews = elemView.get_me_views(CURRENT_COORDINATES);
-
       const int faceOrdinal = fdata.faceOrd;
 
       for (int ip = 0; ip < AlgTraits::numFaceIp_; ++ip) {

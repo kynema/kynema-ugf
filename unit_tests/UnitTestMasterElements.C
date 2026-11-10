@@ -50,26 +50,33 @@ namespace {
 std::vector<DoubleType>
 me_shape(stk::topology topo, QuadRank r, QuadType q)
 {
-  auto me = (r == QuadRank::SCS) ? sierra::kynema_ugf::MasterElementRepo::
-                                     get_surface_master_element_on_host(topo)
-                                 : sierra::kynema_ugf::MasterElementRepo::
-                                     get_volume_master_element_on_host(topo);
-  std::vector<DoubleType> meShapeFunctions(
-    me->nodesPerElement_ * me->num_integration_points());
-  sierra::kynema_ugf::SharedMemView<
-    DoubleType**, sierra::kynema_ugf::DeviceShmem>
-    ShmemView(
-      meShapeFunctions.data(), me->num_integration_points(),
-      me->nodesPerElement_);
+  using Repo = sierra::kynema_ugf::MasterElementRepo;
+  auto* meHost = (r == QuadRank::SCS)
+                   ? Repo::get_surface_master_element_on_host(topo)
+                   : Repo::get_volume_master_element_on_host(topo);
+  auto* meDev = (r == QuadRank::SCS)
+                  ? Repo::get_surface_master_element_on_dev(topo)
+                  : Repo::get_volume_master_element_on_dev(topo);
 
-  if (q == QuadType::SHIFTED) {
-    me->shifted_shape_fcn<>(ShmemView);
-  } else {
-    me->shape_fcn<>(ShmemView);
-  }
-  return meShapeFunctions;
+  const int nip = meHost->num_integration_points();
+  const int npe = meHost->nodesPerElement_;
+
+  Kokkos::View<DoubleType*> d_shp("me_shape", nip * npe);
+  Kokkos::parallel_for(
+    Kokkos::RangePolicy<Kokkos::DefaultExecutionSpace>(0, 1),
+    KOKKOS_LAMBDA(int) {
+      sierra::kynema_ugf::SharedMemView<
+        DoubleType**, sierra::kynema_ugf::DeviceShmem>
+        v(d_shp.data(), nip, npe);
+      if (q == QuadType::SHIFTED) {
+        meDev->shifted_shape_fcn<>(v);
+      } else {
+        meDev->shape_fcn<>(v);
+      }
+    });
+  auto h_shp = Kokkos::create_mirror_view_and_copy(Kokkos::HostSpace{}, d_shp);
+  return std::vector<DoubleType>(h_shp.data(), h_shp.data() + h_shp.extent(0));
 }
-
 } // namespace
 
 TEST(master_element_coeffs, interp_scs)
