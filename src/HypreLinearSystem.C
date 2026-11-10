@@ -1918,7 +1918,6 @@ HypreLinearSystem::zeroSystem()
   HYPRE_IJMatrixSetObjectType(mat_, HYPRE_PARCSR);
   HYPRE_IJMatrixInitialize(mat_);
   HYPRE_IJMatrixGetObject(mat_, (void**)&(solver->parMat_));
-  HYPRE_IJMatrixSetConstantValues(mat_, 0.0);
 
   HYPRE_IJVectorCreate(comm, iLower_, iUpper_, &rhs_);
   HYPRE_IJVectorSetObjectType(rhs_, HYPRE_PARCSR);
