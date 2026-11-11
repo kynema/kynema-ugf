@@ -14,15 +14,11 @@
 #include "BelosLinearProblem.hpp"
 #include "Tpetra_MultiVector.hpp"
 #include "Tpetra_Operator.hpp"
+#include "BelosSolverManager.hpp"
 
 namespace Teuchos {
 class ParameterList;
 }
-
-namespace Belos {
-template <typename, typename, typename>
-class SolverManager;
-} // namespace Belos
 
 namespace sierra {
 namespace kynema_ugf {
