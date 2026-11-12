@@ -37,6 +37,12 @@ inline void
 hypre_initialize()
 {
   HYPRE_Init();
+#if (HYPRE_RELEASE_NUMBER >= 23100)
+  // HYPRE_Init no longer binds hypre to a device, so hypre would default to
+  // device 0 (e.g., for Umpire pool allocations) even when Kokkos selected a
+  // different GPU for this rank. Bind hypre to the current (Kokkos) device.
+  HYPRE_DeviceInitialize();
+#endif
 }
 
 inline void
