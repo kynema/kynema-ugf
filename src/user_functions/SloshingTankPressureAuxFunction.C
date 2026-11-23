@@ -20,13 +20,17 @@ namespace sierra {
 namespace kynema_ugf {
 
 SloshingTankPressureAuxFunction::SloshingTankPressureAuxFunction(
-  const std::vector<double>& params)
+  const std::vector<double>& params,
+  const double density_liquid,
+  const double density_gas)
   : AuxFunction(0, 1),
     water_level_(0.),
     amplitude_(0.1),
     kappa_(0.25),
     interface_thickness_(0.1),
-    domain_height_(0.5)
+    domain_height_(0.5),
+    density_liquid_(density_liquid),
+    density_gas_(density_gas)
 {
   // check size and populate
   if (params.size() != 6 && params.size() != 1)
@@ -83,8 +87,10 @@ SloshingTankPressureAuxFunction::do_evaluate(
 
     const double int_vof0 = 0.5 * z0 - 0.5 * int_erf0;
     const double int_vof1 = 0.5 * z1 - 0.5 * int_erf1;
-    const double int_rho0 = 1000.0 * int_vof0 + 1.0 * (z0 - int_vof0);
-    const double int_rho1 = 1000.0 * int_vof1 + 1.0 * (z1 - int_vof1);
+    const double int_rho0 =
+      density_liquid_ * int_vof0 + density_gas_ * (z0 - int_vof0);
+    const double int_rho1 =
+      density_liquid_ * int_vof1 + density_gas_ * (z1 - int_vof1);
 
     // Pressure is g * integral(rho)dz
     fieldPtr[0] = g * (int_rho1 - int_rho0);

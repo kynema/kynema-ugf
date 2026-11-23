@@ -179,6 +179,7 @@
 
 #include <user_functions/DropletVelocityAuxFunction.h>
 #include <user_functions/SloshingTankPressureAuxFunction.h>
+#include <property_evaluator/MaterialPropertyData.h>
 
 // deprecated
 
@@ -3614,7 +3615,35 @@ ContinuityEquationSystem::register_initial_condition_fcn(
                                         : std::vector<double>();
       std::vector<double> gravity = realm_.solutionOptions_->gravity_;
       fcnParams.emplace_back(gravity[2]);
-      theAuxFunc = new SloshingTankPressureAuxFunction(fcnParams);
+      // hydrostatic initialization must use the same phase densities as the
+      // density material property (VOF: primary = liquid, secondary = gas)
+      double densityLiquid = 0.0;
+      double densityGas = 0.0;
+      const auto itf =
+        realm_.materialPropertys_.propertyDataMap_.find(DENSITY_ID);
+      if (itf == realm_.materialPropertys_.propertyDataMap_.end()) {
+        throw std::runtime_error(
+          "ContinuityEquationSystem::register_initial_condition_fcn: "
+          "sloshing_tank pressure requires a density material property");
+      }
+      const MaterialPropertyData* matData = itf->second;
+      switch (matData->type_) {
+      case VOF_MAT:
+        densityLiquid = matData->primary_;
+        densityGas = matData->secondary_;
+        break;
+      case CONSTANT_MAT:
+        densityLiquid = matData->constValue_;
+        densityGas = matData->constValue_;
+        break;
+      default:
+        throw std::runtime_error(
+          "ContinuityEquationSystem::register_initial_condition_fcn: "
+          "sloshing_tank pressure requires a constant or volume_of_fluid "
+          "density material property");
+      }
+      theAuxFunc = new SloshingTankPressureAuxFunction(
+        fcnParams, densityLiquid, densityGas);
     } else {
       throw std::runtime_error(
         "ContinuityEquationSystem::register_initial_"
