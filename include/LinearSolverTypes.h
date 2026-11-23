@@ -17,6 +17,11 @@
 #include <Tpetra_Vector.hpp>
 #include <Tpetra_MultiVector.hpp>
 #include <Tpetra_Operator.hpp>
+#include <BelosLinearProblem.hpp>
+#include <BelosMultiVecTraits.hpp>
+#include <BelosOperatorTraits.hpp>
+#include <BelosSolverManager.hpp>
+#include <BelosSolverFactory_Tpetra.hpp>
 
 // Forward declare templates
 namespace Teuchos {
@@ -30,24 +35,6 @@ class MpiComm;
 class ParameterList;
 
 } // namespace Teuchos
-
-namespace Belos {
-
-template <typename Scalar, typename MultiVector>
-class MultiVecTraits;
-
-template <typename Scalar, typename MultiVector, typename Operator>
-class OperatorTraits;
-
-template <typename Scalar, typename MultiVector, typename Operator>
-class LinearProblem;
-
-template <typename Scalar, typename MultiVector, typename Operator>
-class SolverManager;
-
-template <typename Scalar, typename MultiVector, typename Operator>
-class TpetraSolverFactory;
-} // namespace Belos
 
 namespace Ifpack2 {
 
