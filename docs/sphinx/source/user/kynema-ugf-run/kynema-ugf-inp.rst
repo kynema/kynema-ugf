@@ -937,6 +937,8 @@ Solution Options
 
    With the transition model, only ``transition_model_type: m2015`` is
    supported; combining the switch with ``dlr_gamma`` produces an input
+   error. The correction assumes resolved walls, so wall boundaries with
+   ``use_wall_function`` or ``abl_wall_function`` also produce an input
    error. Omitting the switch or setting it to ``false`` retains the
    uncorrected SST viscosity.
 

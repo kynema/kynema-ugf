@@ -972,7 +972,13 @@ the intermittency, :math:`\gamma`,
    \frac{D(\rho \gamma)}{Dt}=P_{\gamma}-D_{\gamma}+\frac{\partial }{\partial x_j}\left[ (\mu + \frac{\mu_t}{\sigma_{\gamma}} )\frac{\partial \gamma}{\partial x_j} \right]
 
 and differ in the source terms, :math:`P_{\gamma}` and :math:`D_{\gamma}`, the transition onset criteria, and the
-coupling with the SST model. The transition model is activated with ``transition_model: true`` and selected
+coupling with the SST model. Both models use the Langtry--Menter modification of the SST blending function
+:cite:`Langtry:2009,Stroeer:2021`, which keeps the :math:`k-\omega` branch active inside laminar boundary layers,
+
+.. math::
+   F_1 = \max(F_{1,\mathrm{orig}}, F_3), \quad F_3 = e^{-(R_y/120)^8}, \quad R_y = \frac{\rho d_w \sqrt{k}}{\mu}.
+
+The transition model is activated with ``transition_model: true`` and selected
 with ``transition_model_type`` (``m2015``, the default, or ``dlr_gamma``):
 
 .. code-block:: yaml
@@ -981,8 +987,9 @@ with ``transition_model_type`` (``m2015``, the default, or ``dlr_gamma``):
      turbulence_model: sst
      transition_model: true
      transition_model_type: m2015   # or dlr_gamma
-     turbulence_model_constants:
-       fsti: 0.1   # optional; local Tu is used if omitted
+     options:
+       - turbulence_model_constants:
+           fsti: 0.1   # optional; local Tu is used if omitted
 
 Menter's One-Equation :math:`\gamma` Model
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1010,7 +1017,7 @@ The transition onset criteria of the model are defined as:
 The transition onset occurs once the scaled vorticity Reynolds number, :math:`Re_{v}/2.2`, exceeds the critical momentum thickness Reynolds number, :math:`Re_{\theta c}`, from the empirical correlations.
 
 The output intermittency from the transition model is applied to both the production and destruction terms of the turbulent kinetic energy
-transport equation. 
+transport equation.
 
 .. _eqn_dlr_gamma:
 
@@ -1089,7 +1096,9 @@ The intermittency is applied to the turbulent kinetic energy transport equation 
    D_k^{*}=\min \left( \max(\gamma, 0.1), 1.0 \right) \beta^{*} \rho \omega k
 
 where :math:`c_1` is the production limiter ratio (``tkeProdLimitRatio``),
-while the specific dissipation rate equation is the unmodified SST model.
+while the specific dissipation rate equation keeps the standard SST production term (Menter's model instead uses
+the Kato--Launder form, :math:`\mu_t S \Omega`, in the :math:`\omega` production). The modified :math:`F_1`
+blending function above is used by both models :cite:`Stroeer:2021`.
 Unlike Menter's model, the DLR-:math:`\gamma` model is not Galilean invariant because the edge quantities are
 reconstructed from global freestream reference values. Care is needed for flows with multiple relative motions
 (e.g., rotors or multiple moving bodies), where a single freestream reference is an approximation.

@@ -767,7 +767,9 @@ ShearStressTransportEquationSystem::compute_f_one_blending()
       fOneBlend.get(mi, 0) =
         stk::math::tanh(fArgOne * fArgOne * fArgOne * fArgOne);
 
-      // Modifications of f1 blending function for the transition model
+      // Langtry & Menter (2009) F1 = max(F1, F3) modification, used by both
+      // M2015 and DLR-gamma (Stroeer et al. 2021: mandatory to prevent
+      // unwanted behaviour in laminar regions)
       if (gammaEqActive) {
         const double f1Orig = fOneBlend.get(mi, 0);
         const double ry = rho * minD * stk::math::sqrt(tke) / mu;

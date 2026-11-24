@@ -117,7 +117,8 @@ TurbViscSSTAlg::execute()
       }
       sijMag = stk::math::sqrt(2.0 * sijMag);
 
-      // Guard against zero wall distance (e.g. at wall nodes) and zero sdr
+      // Guard against zero wall distance (e.g. before the SST wall clip) and
+      // zero sdr
       const DblType minDist = stk::math::max(minD.get(meshIdx, 0), 1.0e-16);
       const DblType sdrSafe = stk::math::max(sdr.get(meshIdx, 0), 1.0e-16);
       const DblType minDSq = minDist * minDist;
@@ -140,7 +141,11 @@ TurbViscSSTAlg::execute()
             normal.get(meshIdx, i) * normalVelocityGradient.get(meshIdx, i);
           normalVelocity += normal.get(meshIdx, i) * velocity.get(meshIdx, i);
         }
-        // Use the physical wall distance for the sensor (zero at the wall).
+        // Same wall distance as the M2015 lamda0L sensor. After SST's
+        // clip_min_distance_to_wall() it is the assembled wall-normal distance
+        // at wall nodes, and the wall-normal gradients near the wall are built
+        // from that clipped field. With resolved walls (tke = 0) tvisc at wall
+        // nodes is 0 with or without the APG branch.
         const DblType distance = minD.get(meshIdx, 0);
         const DblType lambda = stk::math::min(
           stk::math::max(

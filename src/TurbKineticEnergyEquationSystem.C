@@ -589,6 +589,16 @@ TurbKineticEnergyEquationSystem::register_wall_bc(
     wallFunctionApproach = false;
   }
 
+  // The APG eddy-viscosity correction assumes resolved walls (tke = 0)
+  if (
+    realm_.solutionOptions_->apgCorrection_ &&
+    (wallFunctionApproach || RANSAblBcApproach)) {
+    throw std::runtime_error(
+      "Invalid configuration: apg_correction is not supported with wall "
+      "functions (use_wall_function or abl_wall_function) on wall boundary " +
+      part->name());
+  }
+
   if (wallFunctionApproach || RANSAblBcApproach) {
     // need to register the assembles wall value for tke; can not share with
     // tke_bc
