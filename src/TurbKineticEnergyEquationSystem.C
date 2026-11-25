@@ -64,6 +64,7 @@
 #include <node_kernels/TKEKONodeKernel.h>
 
 #include <node_kernels/TKESSTBLTM2015NodeKernel.h>
+#include <node_kernels/TKESSTBLTDLRNodeKernel.h>
 #include <node_kernels/TKESSTIDDESBLTM2015NodeKernel.h>
 
 // ngp
@@ -311,6 +312,10 @@ TurbKineticEnergyEquationSystem::register_interior_algorithm(
         case TurbulenceModel::SST:
           if (!realm_.solutionOptions_->gammaEqActive_) {
             nodeAlg.add_kernel<TKESSTNodeKernel>(realm_.meta_data());
+          } else if (
+            realm_.solutionOptions_->transitionModel_ ==
+            TransitionModel::DLR_GAMMA) {
+            nodeAlg.add_kernel<TKESSTBLTDLRNodeKernel>(realm_.meta_data());
           } else {
             nodeAlg.add_kernel<TKESSTBLTM2015NodeKernel>(realm_.meta_data());
           }
@@ -582,6 +587,16 @@ TurbKineticEnergyEquationSystem::register_wall_bc(
       << "Both wall function and tke specified; will go with dirichlet"
       << std::endl;
     wallFunctionApproach = false;
+  }
+
+  // The APG eddy-viscosity correction assumes resolved walls (tke = 0)
+  if (
+    realm_.solutionOptions_->apgCorrection_ &&
+    (wallFunctionApproach || RANSAblBcApproach)) {
+    throw std::runtime_error(
+      "Invalid configuration: apg_correction is not supported with wall "
+      "functions (use_wall_function or abl_wall_function) on wall boundary " +
+      part->name());
   }
 
   if (wallFunctionApproach || RANSAblBcApproach) {
