@@ -25,6 +25,12 @@ class Realm;
 class ExtOverset
 {
 public:
+  // Modular coupling TODO: keep this optional bridge, field registration, and
+  // component counts behind the UGF-owned module interface, not driver access
+  // to timeIntegrator_->overset_. In multi-solver mode the driver coordinates
+  // connectivity/exchange; advance_states() must not duplicate it. JSON
+  // initialization and timestep inputs/outputs must also work without Tioga.
+  // Keep communicator and bridge ownership explicit for each module instance.
   ExtOverset(TimeIntegrator& timeIntegrator_);
 
   ~ExtOverset();

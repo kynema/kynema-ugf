@@ -2014,6 +2014,11 @@ Realm::advance_time_step()
 void
 Realm::nonlinear_iterations(const int numNonLinearIterations)
 {
+  // Modular coupling: expose this grouped solve through the UGF-owned
+  // additional_picard_iterations(count) hook, once per realm. Replacing it
+  // with count calls to advance_time_step() or nonlinear_iterations(1) changes
+  // property/source setup, final-outer-iteration flags, and early convergence.
+  // Refresh coupling outputs after correction without committing a timestep.
   for (int i = 0; i < numNonLinearIterations; ++i) {
     currentNonlinearIteration_ = i + 1;
     KynemaUGFEnv::self().kynema_ugfOutputP0()

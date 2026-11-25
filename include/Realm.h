@@ -261,6 +261,11 @@ public:
   virtual void populate_derived_quantities();
   virtual void evaluate_properties();
   virtual double compute_adaptive_time_step();
+  // Modular coupling TODO: implement explicit snapshot/restore for
+  // reset_states(). swap_states()/predict_state() prepare a new timestep and
+  // are not rollback. Account for solution/history and dependent solver,
+  // property, and mesh state while retaining current external inputs and
+  // overset connectivity. Keep the existing no-op module reset until tested.
   virtual void swap_states();
   virtual void predict_state();
   virtual void update_geometry_due_to_mesh_motion();
