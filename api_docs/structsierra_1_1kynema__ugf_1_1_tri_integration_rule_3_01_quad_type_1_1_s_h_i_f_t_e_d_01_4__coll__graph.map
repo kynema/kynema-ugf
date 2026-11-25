@@ -1,0 +1,9 @@
+<map id="sierra::kynema_ugf::TriIntegrationRule&lt; QuadType::SHIFTED &gt;" name="sierra::kynema_ugf::TriIntegrationRule&lt; QuadType::SHIFTED &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="739,55,917,117"/>
+<area shape="rect" id="Node000002" href="$structsierra_1_1kynema__ugf_1_1_array_n_d.html" title=" " alt="" coords="336,14,526,59"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="541,48,741,75,736,75,541,53"/>
+<area shape="rect" id="Node000003" href="$structsierra_1_1kynema__ugf_1_1_array_n_d.html" title=" " alt="" coords="5,6,174,68"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="189,34,337,35,333,38,190,39"/>
+<area shape="rect" id="Node000004" href="$structsierra_1_1kynema__ugf_1_1_tri_integration_rule.html" title=" " alt="" coords="358,83,504,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="519,110,715,99,736,99,741,99,715,104,520,115"/>
+</map>

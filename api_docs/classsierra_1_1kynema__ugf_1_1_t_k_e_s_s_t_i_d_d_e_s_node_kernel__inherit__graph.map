@@ -1,0 +1,10 @@
+<map id="sierra::kynema_ugf::TKESSTIDDESNodeKernel" name="sierra::kynema_ugf::TKESSTIDDESNodeKernel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="44,328,237,373"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_node_kernel.html" title=" " alt="" coords="5,217,276,279"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,292,143,329,138,326,139,296"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1_node_kernel.html" title=" " alt="" coords="62,5,208,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="138,64,142,217,137,216,134,67"/>
+<area shape="rect" id="Node000004" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_node_kernel.html" title=" " alt="" coords="157,99,327,144"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="172,58,219,98,214,100,172,63"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="217,154,167,218,163,215,213,158"/>
+</map>

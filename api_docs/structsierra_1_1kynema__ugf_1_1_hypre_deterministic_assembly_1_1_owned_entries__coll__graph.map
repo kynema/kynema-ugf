@@ -1,0 +1,12 @@
+<map id="sierra::kynema_ugf::HypreDeterministicAssembly::OwnedEntries" name="sierra::kynema_ugf::HypreDeterministicAssembly::OwnedEntries">
+<area shape="rect" id="Node000001" title=" " alt="" coords="59,347,279,408"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,207,154,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,262,153,346,148,347,99,267"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="105,106,233,134"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="129,145,115,159,99,183,89,207,84,205,95,180,111,156,132,140"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="177,215,342,243"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="202,140,220,156,242,186,256,215,251,214,237,189,216,159,202,146"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="150,5,188,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="170,46,171,106,166,105,168,51"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="246,255,189,348,185,345,241,257"/>
+</map>

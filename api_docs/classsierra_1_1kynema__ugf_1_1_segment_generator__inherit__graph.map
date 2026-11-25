@@ -1,0 +1,9 @@
+<map id="sierra::kynema_ugf::SegmentGenerator" name="sierra::kynema_ugf::SegmentGenerator">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,75,158,119"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_radar_segment_generator.html" title=" " alt="" coords="232,5,422,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,69,248,49,243,52,173,74"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1_scanning_lidar_segment_generator.html" title=" " alt="" coords="206,75,449,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,94,208,96,203,98,173,100"/>
+<area shape="rect" id="Node000004" href="$classsierra_1_1kynema__ugf_1_1_spinner_lidar_segment_generator.html" title=" " alt="" coords="211,144,444,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="173,120,248,143,243,144,172,125"/>
+</map>

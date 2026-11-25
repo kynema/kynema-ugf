@@ -1,0 +1,9 @@
+<map id="PromotedPartHelper.h" name="PromotedPartHelper.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="39,5,202,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,68,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,33,65,73,61,69,103,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="91,81,150,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="122,32,123,66,118,64,119,36"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="174,81,366,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="148,31,232,73,227,75,147,36"/>
+</map>

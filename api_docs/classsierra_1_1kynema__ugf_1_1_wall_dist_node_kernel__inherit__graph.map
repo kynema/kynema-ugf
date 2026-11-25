@@ -1,0 +1,10 @@
+<map id="sierra::kynema_ugf::WallDistNodeKernel" name="sierra::kynema_ugf::WallDistNodeKernel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="44,328,202,373"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_node_kernel.html" title=" " alt="" coords="5,217,241,279"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,292,125,329,121,327,121,296"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1_node_kernel.html" title=" " alt="" coords="44,5,191,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,64,125,217,120,216,117,67"/>
+<area shape="rect" id="Node000004" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_node_kernel.html" title=" " alt="" coords="139,99,310,144"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="154,58,202,98,197,100,154,63"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="199,154,150,218,146,215,195,158"/>
+</map>

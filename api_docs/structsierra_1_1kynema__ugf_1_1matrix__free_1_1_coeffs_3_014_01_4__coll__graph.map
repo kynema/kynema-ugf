@@ -1,0 +1,21 @@
+<map id="sierra::kynema_ugf::matrix_free::Coeffs&lt; 4 &gt;" name="sierra::kynema_ugf::matrix_free::Coeffs&lt; 4 &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="622,184,814,229"/>
+<area shape="rect" id="Node000002" href="$structsierra_1_1kynema__ugf_1_1_array_n_d.html" title=" " alt="" coords="337,5,527,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="540,53,599,81,631,105,659,132,703,184,698,183,655,135,627,109,597,86,540,58"/>
+<area shape="rect" id="Node000003" href="$structsierra_1_1kynema__ugf_1_1_array_n_d.html" title=" " alt="" coords="5,136,174,197"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,124,164,101,197,83,266,56,338,40,334,43,268,61,199,87,167,106,138,127"/>
+<area shape="rect" id="Node000004" href="$structsierra_1_1kynema__ugf_1_1_array_n_d.html" title=" " alt="" coords="337,75,527,119"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="187,136,197,133,338,108,335,112,198,138,190,140"/>
+<area shape="rect" id="Node000005" href="$structsierra_1_1kynema__ugf_1_1_array_n_d.html" title=" " alt="" coords="337,144,527,189"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="189,164,338,165,334,168,190,169"/>
+<area shape="rect" id="Node000006" href="$structsierra_1_1kynema__ugf_1_1_array_n_d.html" title=" " alt="" coords="337,213,527,258"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="188,192,198,194,338,221,334,224,197,199,190,197"/>
+<area shape="rect" id="Node000007" href="$structsierra_1_1kynema__ugf_1_1_array_n_d.html" title=" " alt="" coords="346,283,518,327"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="136,204,167,226,199,245,273,272,348,292,343,293,271,277,197,250,164,231,136,210"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="520,122,599,151,671,183,666,184,597,155,520,127"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="543,179,624,192,619,193,543,184"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="542,228,598,223,624,222,619,224,598,229,543,234"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="532,278,597,258,669,230,674,229,599,263,534,284"/>
+<area shape="rect" id="Node000008" href="$structsierra_1_1kynema__ugf_1_1matrix__free_1_1_coeffs.html" title=" " alt="" coords="336,352,528,397"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="512,343,527,337,563,322,597,304,649,265,691,230,696,228,652,269,599,308,565,327,529,342,513,349"/>
+</map>

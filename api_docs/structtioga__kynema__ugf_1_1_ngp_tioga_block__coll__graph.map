@@ -1,0 +1,13 @@
+<map id="tioga_kynema_ugf::NgpTiogaBlock" name="tioga_kynema_ugf::NgpTiogaBlock">
+<area shape="rect" id="Node000001" title="Data representing an unstructured mesh block." alt="" coords="830,272,1040,317"/>
+<area shape="rect" id="Node000002" href="$structtioga__kynema__ugf_1_1_overset_array_type.html" title=" " alt="" coords="473,132,672,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="628,122,669,107,715,97,762,96,785,100,807,109,831,124,852,143,887,187,912,233,928,273,924,270,908,235,883,190,848,147,828,129,805,114,784,105,762,101,715,102,671,112,630,127"/>
+<area shape="rect" id="Node000003" href="$structtioga__kynema__ugf_1_1_overset_array_type.html" title=" " alt="" coords="5,272,229,317"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="206,264,497,174,497,180,208,269"/>
+<area shape="rect" id="Node000004" href="$structtioga__kynema__ugf_1_1_overset_array_type.html" title=" " alt="" coords="473,272,672,317"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="244,292,474,292,470,296,244,297"/>
+<area shape="rect" id="Node000005" href="$structtioga__kynema__ugf_1_1_overset_array_type.html" title=" " alt="" coords="448,345,697,390"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="230,318,253,322,449,352,445,355,252,327,230,323"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="688,292,832,294,827,294,688,297"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="712,359,805,344,848,331,886,318,891,316,850,336,807,349,713,365"/>
+</map>

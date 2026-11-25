@@ -1,0 +1,16 @@
+<map id="HexNElementDescription.h" name="HexNElementDescription.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="374,5,571,33"/>
+<area shape="rect" id="Node000002" href="$_hex_n_element_description_8_c.html" title=" " alt="" coords="5,81,204,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="390,39,171,83,170,78,392,34"/>
+<area shape="rect" id="Node000003" href="$_node_map_maker_8_c.html" title=" " alt="" coords="228,81,363,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="429,38,328,83,326,78,424,40"/>
+<area shape="rect" id="Node000004" href="$_promote_element_impl_8_c.html" title=" " alt="" coords="386,81,559,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="474,47,475,82,470,79,471,51"/>
+<area shape="rect" id="Node000005" href="$_promoted_element_i_o_8h.html" title=" " alt="" coords="582,81,747,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="521,36,633,80,628,81,520,41"/>
+<area shape="rect" id="Node000007" href="$_realm_8_c.html" title=" " alt="" coords="746,157,823,184"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="586,30,690,49,732,62,761,79,774,97,782,118,787,158,783,155,777,119,770,100,757,83,730,67,688,54,586,35"/>
+<area shape="rect" id="Node000006" href="$_promoted_element_i_o_8_c.html" title=" " alt="" coords="556,157,722,184"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="657,122,645,158,642,154,653,125"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="699,114,766,157,761,156,698,120"/>
+</map>

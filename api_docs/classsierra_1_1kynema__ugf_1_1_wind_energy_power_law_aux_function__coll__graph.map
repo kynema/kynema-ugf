@@ -1,0 +1,11 @@
+<map id="sierra::kynema_ugf::WindEnergyPowerLawAuxFunction" name="sierra::kynema_ugf::WindEnergyPowerLawAuxFunction">
+<area shape="rect" id="Node000001" title="Create power law velocity profile aux function for wind energy applications." alt="" coords="5,324,259,369"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_aux_function.html" title=" " alt="" coords="38,207,184,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,265,131,324,125,323,116,269"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="208,215,381,243"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="267,252,164,326,161,322,262,252"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="234,106,355,134"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="296,147,297,216,292,213,293,151"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="275,5,314,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="296,46,297,106,292,105,293,51"/>
+</map>

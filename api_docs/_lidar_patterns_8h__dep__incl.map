@@ -1,0 +1,11 @@
+<map id="LidarPatterns.h" name="LidarPatterns.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="79,5,198,33"/>
+<area shape="rect" id="Node000002" href="$_lidar_patterns_8_c.html" title=" " alt="" coords="5,81,125,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,46,80,82,76,79,116,42"/>
+<area shape="rect" id="Node000003" href="$_synthetic_lidar_8h.html" title=" " alt="" coords="149,81,274,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,42,201,80,196,81,162,47"/>
+<area shape="rect" id="Node000004" href="$_realm_8_c.html" title=" " alt="" coords="111,157,187,184"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="193,120,162,158,159,154,188,122"/>
+<area shape="rect" id="Node000005" href="$_synthetic_lidar_8_c.html" title=" " alt="" coords="211,157,338,184"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="234,118,266,157,261,156,232,123"/>
+</map>

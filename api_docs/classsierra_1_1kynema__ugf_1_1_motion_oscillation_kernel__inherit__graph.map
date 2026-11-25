@@ -1,0 +1,10 @@
+<map id="sierra::kynema_ugf::MotionOscillationKernel" name="sierra::kynema_ugf::MotionOscillationKernel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="48,328,233,373"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_ngp_motion_kernel.html" title=" " alt="" coords="5,217,276,279"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,292,143,329,138,326,139,296"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1_ngp_motion.html" title=" " alt="" coords="62,5,208,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="138,64,142,217,137,216,134,67"/>
+<area shape="rect" id="Node000004" href="$classsierra_1_1kynema__ugf_1_1_ngp_motion_kernel.html" title=" " alt="" coords="156,99,336,144"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="173,58,222,98,217,100,173,63"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="219,154,168,218,164,215,216,158"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="sierra::kynema_ugf::kynema_ugf_ngp::EntityInfo&lt; Mesh &gt;" name="sierra::kynema_ugf::kynema_ugf_ngp::EntityInfo&lt; Mesh &gt;">
+<area shape="rect" id="Node000001" title="Lightweight data structure holding information of the entity in mesh loops." alt="" coords="5,5,217,67"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="233,30,243,36,218,44,217,39,238,36,232,35"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="232,22,290,25,308,29,316,36,307,44,284,48,217,50,217,45,284,43,305,39,311,36,306,34,289,30,232,27"/>
+</map>

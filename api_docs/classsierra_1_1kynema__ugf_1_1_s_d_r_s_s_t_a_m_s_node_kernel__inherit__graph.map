@@ -1,0 +1,10 @@
+<map id="sierra::kynema_ugf::SDRSSTAMSNodeKernel" name="sierra::kynema_ugf::SDRSSTAMSNodeKernel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="44,328,227,373"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_node_kernel.html" title=" " alt="" coords="5,217,266,279"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,292,138,329,133,327,134,296"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1_node_kernel.html" title=" " alt="" coords="57,5,203,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="133,64,137,217,132,216,129,67"/>
+<area shape="rect" id="Node000004" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_node_kernel.html" title=" " alt="" coords="152,99,322,144"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="167,58,214,98,209,100,167,63"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="212,154,162,218,158,215,208,158"/>
+</map>

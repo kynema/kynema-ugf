@@ -1,0 +1,5 @@
+<map id="sierra::kynema_ugf::WallBoundaryConditionData" name="sierra::kynema_ugf::WallBoundaryConditionData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,98,218,143"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_boundary_condition.html" title=" " alt="" coords="35,5,188,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,64,114,99,109,97,110,68"/>
+</map>

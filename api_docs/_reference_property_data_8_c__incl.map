@@ -1,0 +1,14 @@
+<map id="ReferencePropertyData.C" name="ReferencePropertyData.C">
+<area shape="rect" id="Node000001" title=" " alt="" coords="25,5,212,33"/>
+<area shape="rect" id="Node000002" href="$_reference_property_data_8h.html" title=" " alt="" coords="90,81,280,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,31,160,68,155,69,129,36"/>
+<area shape="rect" id="Node000003" href="$_enums_8h.html" title=" " alt="" coords="34,174,112,201"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="106,36,94,56,81,82,74,121,73,158,68,157,68,121,76,80,89,53,108,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="154,128,105,166,102,162,158,124"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="154,174,216,201"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="187,124,188,159,183,157,184,128"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,249,64,277"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="68,200,51,237,46,234,64,204"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="88,249,138,277"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="82,200,101,236,96,236,79,204"/>
+</map>

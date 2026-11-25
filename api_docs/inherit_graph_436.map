@@ -1,0 +1,17 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,278,134,306"/>
+<area shape="rect" id="Node000001" href="$classsierra_1_1kynema__ugf_1_1matrix__free_1_1_conduction_linearized_residual_operator.html" title=" " alt="" coords="183,5,436,67"/>
+<area shape="poly" id="edge454_Node000000_Node000001" title=" " alt="" coords="76,262,89,221,111,171,141,121,180,77,199,65,196,70,183,81,145,124,115,174,94,223,81,264"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1matrix__free_1_1_continuity_linearized_residual_operator.html" title=" " alt="" coords="186,91,433,152"/>
+<area shape="poly" id="edge455_Node000000_Node000002" title=" " alt="" coords="85,264,125,212,151,185,180,162,203,151,199,155,183,166,155,189,129,216,90,267"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1matrix__free_1_1_filter_jacobi_operator.html" title=" " alt="" coords="217,176,402,238"/>
+<area shape="poly" id="edge456_Node000000_Node000003" title=" " alt="" coords="119,270,181,247,218,236,214,239,183,252,123,274"/>
+<area shape="rect" id="Node000004" href="$classsierra_1_1kynema__ugf_1_1matrix__free_1_1_gradient_linearized_residual_operator.html" title=" " alt="" coords="191,261,428,323"/>
+<area shape="poly" id="edge457_Node000000_Node000004" title=" " alt="" coords="148,290,193,291,188,294,150,295"/>
+<area shape="rect" id="Node000005" href="$classsierra_1_1kynema__ugf_1_1matrix__free_1_1_jacobi_operator.html" title=" " alt="" coords="186,347,433,392"/>
+<area shape="poly" id="edge458_Node000000_Node000005" title=" " alt="" coords="119,309,183,332,222,346,218,348,181,337,120,315"/>
+<area shape="rect" id="Node000006" href="$classsierra_1_1kynema__ugf_1_1matrix__free_1_1_momentum_jacobi_operator.html" title=" " alt="" coords="196,416,423,478"/>
+<area shape="poly" id="edge459_Node000000_Node000006" title=" " alt="" coords="91,316,132,360,157,383,183,402,205,415,200,416,180,406,153,387,128,364,91,321"/>
+<area shape="rect" id="Node000007" href="$classsierra_1_1kynema__ugf_1_1matrix__free_1_1_momentum_linearized_residual_operator.html" title=" " alt="" coords="182,501,437,563"/>
+<area shape="poly" id="edge460_Node000000_Node000007" title=" " alt="" coords="80,318,96,358,118,403,147,448,183,487,200,501,195,501,180,492,142,452,113,405,91,360,79,323"/>
+</map>

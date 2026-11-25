@@ -1,0 +1,11 @@
+<map id="StkToTpetraLocalIndices.h" name="StkToTpetraLocalIndices.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="224,5,414,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,132,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="275,36,129,79,127,74,273,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="156,81,288,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="304,33,252,74,250,69,299,34"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="312,81,524,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="338,31,391,72,386,71,336,36"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="548,81,736,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="378,31,572,77,566,78,377,36"/>
+</map>

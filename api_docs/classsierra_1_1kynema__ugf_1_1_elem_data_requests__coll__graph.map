@@ -1,0 +1,26 @@
+<map id="sierra::kynema_ugf::ElemDataRequests" name="sierra::kynema_ugf::ElemDataRequests">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1244,157,1397,202"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="891,121,1083,182"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1099,158,1246,173,1241,173,1099,164"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="473,65,633,110"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="649,88,747,95,851,109,893,121,888,121,850,114,746,100,649,93"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="130,74,238,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="253,85,474,86,470,89,254,90"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="682,5,826,50"/>
+<area shape="poly" id="edge12_Node000010_Node000004" title=" " alt="" coords="227,65,261,54,375,35,490,25,596,22,684,24,679,26,596,27,491,31,376,41,263,60,230,70"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,236,44,264"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="48,224,168,99,170,104,52,227"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="487,247,620,275"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="59,248,486,257,486,262,59,254"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="493,163,614,191"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="629,178,657,179,754,183,796,183,850,179,893,175,888,176,851,184,796,188,754,188,657,184,630,183"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="165,176,203,204"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="218,186,494,177,491,181,219,192"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="217,201,263,215,381,239,489,255,483,255,380,244,261,221,217,206"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="874,223,1100,267"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1115,219,1219,198,1241,196,1246,195,1220,203,1116,224"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="635,260,738,260,850,256,877,257,871,258,851,262,738,265,636,265"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="841,39,1018,74,1120,100,1221,130,1279,157,1273,157,1219,136,1119,105,1017,79,841,44"/>
+<area shape="rect" id="Node000011" href="$classsierra_1_1kynema__ugf_1_1_master_element.html" title=" " alt="" coords="914,308,1060,353"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="1076,340,1148,337,1184,329,1218,315,1250,291,1275,261,1294,229,1308,204,1312,201,1299,232,1279,264,1253,295,1221,319,1186,334,1149,342,1076,345"/>
+</map>

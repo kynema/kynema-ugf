@@ -1,0 +1,10 @@
+<map id="sierra::kynema_ugf::MomentumBuoyancyNodeKernel" name="sierra::kynema_ugf::MomentumBuoyancyNodeKernel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="27,328,270,373"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_node_kernel.html" title=" " alt="" coords="5,217,292,279"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,292,151,329,146,326,147,296"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1_node_kernel.html" title=" " alt="" coords="70,5,216,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="146,64,150,217,145,216,142,67"/>
+<area shape="rect" id="Node000004" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_node_kernel.html" title=" " alt="" coords="165,99,335,144"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="180,58,227,98,222,100,180,63"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="225,154,175,218,171,215,221,158"/>
+</map>

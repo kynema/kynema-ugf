@@ -1,0 +1,22 @@
+<map id="sierra::kynema_ugf::PostProcessingInfo" name="sierra::kynema_ugf::PostProcessingInfo">
+<area shape="rect" id="Node000001" title=" " alt="" coords="36,641,189,686"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,506,220,568"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,582,115,641,110,640,111,585"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1_post_processing_data.html" title=" " alt="" coords="281,389,440,433"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="302,442,174,508,171,503,306,438"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="468,123,554,151"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="533,161,540,174,557,213,564,232,569,252,568,275,559,301,542,331,514,366,499,381,481,392,441,406,439,401,478,387,496,377,511,363,538,328,555,299,562,274,563,253,559,234,552,215,535,176,532,166"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="322,245,508,272"/>
+<area shape="poly" id="edge9_Node000009_Node000004" title=" " alt="" coords="481,163,471,176,444,213,424,246,420,243,439,210,467,173,484,159"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="442,5,580,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="512,63,514,124,509,122,510,68"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="134,245,299,272"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="241,281,273,316,286,340,299,363,327,388,322,389,295,366,281,343,269,319,241,286"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="152,123,281,151"/>
+<area shape="poly" id="edge11_Node000002_Node000007" title=" " alt="" coords="184,162,154,190,124,225,100,269,89,318,85,369,89,421,106,506,101,506,84,421,80,369,84,317,95,267,120,222,150,186,187,158"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="217,163,219,245,214,244,216,169"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="265,154,303,172,358,209,402,244,397,245,355,213,301,177,266,160"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="197,14,236,42"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="217,55,219,123,214,122,216,60"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="414,285,408,326,395,366,380,390,376,387,390,364,403,324,411,290"/>
+</map>

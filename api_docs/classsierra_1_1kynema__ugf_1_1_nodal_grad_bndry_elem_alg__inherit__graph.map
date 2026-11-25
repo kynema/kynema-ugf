@@ -1,0 +1,11 @@
+<map id="sierra::kynema_ugf::NodalGradBndryElemAlg&lt; AlgTraits, PhiType, GradPhiType, ViewHelperType &gt;" name="sierra::kynema_ugf::NodalGradBndryElemAlg&lt; AlgTraits, PhiType, GradPhiType, ViewHelperType &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="201,238,444,317"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1_nodal_grad_bndry_elem_alg.html" title=" " alt="" coords="762,76,1059,188"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="370,225,414,188,467,159,540,137,616,124,691,118,764,119,759,121,692,123,617,129,542,142,469,164,417,192,373,229"/>
+<area shape="rect" id="Node000004" href="$classsierra_1_1kynema__ugf_1_1_nodal_grad_bndry_elem_alg.html" title=" " alt="" coords="761,221,1060,334"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="460,275,763,276,759,278,460,280"/>
+<area shape="rect" id="Node000005" href="$classsierra_1_1kynema__ugf_1_1_nodal_grad_bndry_elem_alg.html" title=" " alt="" coords="761,366,1060,479"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="370,325,416,364,442,381,469,394,541,416,617,429,691,434,763,437,758,437,691,439,616,434,540,422,467,399,439,386,413,369,369,331"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_algorithm.html" title=" " alt="" coords="5,255,152,300"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,275,203,276,198,279,168,280"/>
+</map>

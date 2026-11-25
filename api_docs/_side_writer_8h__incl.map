@@ -1,0 +1,11 @@
+<map id="SideWriter.h" name="SideWriter.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="93,5,194,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,47,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,36,61,75,58,71,121,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="71,81,133,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,32,119,69,115,65,134,35"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="157,81,215,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="152,31,173,68,168,67,150,36"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="240,81,316,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="168,31,244,73,239,74,167,36"/>
+</map>

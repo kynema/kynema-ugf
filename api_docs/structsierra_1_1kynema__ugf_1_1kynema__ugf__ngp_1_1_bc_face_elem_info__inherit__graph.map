@@ -1,0 +1,5 @@
+<map id="sierra::kynema_ugf::kynema_ugf_ngp::BcFaceElemInfo&lt; Mesh &gt;" name="sierra::kynema_ugf::kynema_ugf_ngp::BcFaceElemInfo&lt; Mesh &gt;">
+<area shape="rect" id="Node000001" title="Lightweight data structure for face/elem pair information in mesh loops." alt="" coords="5,5,232,67"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="248,30,258,36,232,44,232,39,253,36,247,35"/>
+<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="247,22,305,25,323,29,331,36,322,44,300,48,232,50,232,45,299,43,320,39,326,36,321,34,304,30,247,27"/>
+</map>

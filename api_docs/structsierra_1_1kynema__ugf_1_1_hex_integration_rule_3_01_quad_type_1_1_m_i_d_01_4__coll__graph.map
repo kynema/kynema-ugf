@@ -1,0 +1,12 @@
+<map id="sierra::kynema_ugf::HexIntegrationRule&lt; QuadType::MID &gt;" name="sierra::kynema_ugf::HexIntegrationRule&lt; QuadType::MID &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="726,66,881,128"/>
+<area shape="rect" id="Node000002" href="$structsierra_1_1kynema__ugf_1_1_array_n_d.html" title=" " alt="" coords="344,5,542,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="557,38,703,64,728,72,723,72,701,69,557,44"/>
+<area shape="rect" id="Node000003" href="$structsierra_1_1kynema__ugf_1_1_array_n_d.html" title=" " alt="" coords="5,32,174,93"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="188,50,345,36,341,39,189,55"/>
+<area shape="rect" id="Node000004" href="$structsierra_1_1kynema__ugf_1_1_array_n_d.html" title=" " alt="" coords="348,75,538,119"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="188,78,198,79,350,92,345,95,197,85,189,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="553,94,728,97,723,97,553,100"/>
+<area shape="rect" id="Node000005" href="$structsierra_1_1kynema__ugf_1_1_hex_integration_rule.html" title=" " alt="" coords="365,144,520,205"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="535,158,701,125,723,122,728,121,703,130,536,163"/>
+</map>

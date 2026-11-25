@@ -1,0 +1,23 @@
+<map id="sierra::kynema_ugf::DeltaGammaConverter" name="sierra::kynema_ugf::DeltaGammaConverter">
+<area shape="rect" id="Node000001" title="Calculates reference heat loss parameter." alt="" coords="1152,159,1332,203"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_converter.html" title="Provides arbitrary processing of input data before handing off values to a Table for interpolation." alt="" coords="881,83,1028,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1043,125,1128,148,1159,158,1154,158,1127,153,1043,130"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="282,46,368,73"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="383,54,473,51,588,51,716,57,844,72,884,82,878,82,843,77,715,62,587,56,473,56,384,59"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="540,91,725,119"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="383,72,413,78,542,97,537,98,413,83,383,77"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,37,144,82"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="159,57,283,58,279,61,160,62"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="741,102,884,105,878,105,741,108"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="261,168,389,196"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="397,162,577,119,572,120,399,167"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="867,159,1042,203"/>
+<area shape="poly" id="edge11_Node000008_Node000006" title=" " alt="" coords="404,179,868,179,866,183,404,185"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="550,230,715,257"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="362,201,414,223,483,237,553,244,548,244,482,242,412,228,361,207"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="55,168,94,196"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="109,180,262,180,259,185,110,185"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="1057,178,1154,181,1148,181,1057,184"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="725,258,795,266,874,272,958,271,1041,260,1084,249,1126,234,1196,204,1201,203,1128,239,1085,254,1042,266,959,276,874,277,794,272,725,263"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="730,239,786,234,843,223,903,204,909,203,844,229,787,239,731,244"/>
+</map>

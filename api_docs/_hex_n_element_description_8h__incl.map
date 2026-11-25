@@ -1,0 +1,13 @@
+<map id="HexNElementDescription.h" name="HexNElementDescription.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="117,5,314,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,79,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,36,88,77,85,72,183,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="102,81,152,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,33,156,73,153,69,197,34"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="177,81,254,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="217,32,218,67,213,64,214,35"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="278,81,340,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="233,31,283,71,278,71,231,36"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="364,81,419,109"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="247,31,352,76,346,76,246,36"/>
+</map>

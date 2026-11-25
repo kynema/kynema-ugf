@@ -1,0 +1,10 @@
+<map id="sierra::kynema_ugf::SANuTildaAFTNodeKernel" name="sierra::kynema_ugf::SANuTildaAFTNodeKernel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="15,328,211,373"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_node_kernel.html" title=" " alt="" coords="5,217,221,279"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,292,115,329,111,327,111,296"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1_node_kernel.html" title=" " alt="" coords="34,5,181,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,64,115,217,110,216,107,67"/>
+<area shape="rect" id="Node000004" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_node_kernel.html" title=" " alt="" coords="129,99,300,144"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="144,58,192,98,187,100,144,63"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="189,154,140,218,136,215,185,158"/>
+</map>

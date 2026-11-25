@@ -1,0 +1,5 @@
+<map id="sierra::kynema_ugf::GammaConverter" name="sierra::kynema_ugf::GammaConverter">
+<area shape="rect" id="Node000001" title="Calculates reference heat loss parameter." alt="" coords="5,98,152,143"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_converter.html" title="Provides arbitrary processing of input data before handing off values to a Table for interpolation." alt="" coords="5,5,152,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,64,81,99,76,97,77,68"/>
+</map>

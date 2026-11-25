@@ -1,0 +1,11 @@
+<map id="sierra::kynema_ugf::TabulatedTemperatureAuxFunction" name="sierra::kynema_ugf::TabulatedTemperatureAuxFunction">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,347,260,391"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_aux_function.html" title=" " alt="" coords="38,207,184,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,265,132,347,127,346,115,269"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="209,215,373,243"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="268,253,159,348,156,344,262,253"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="227,106,355,134"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="293,147,294,215,289,214,290,152"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="272,5,310,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="292,46,294,106,289,105,290,51"/>
+</map>

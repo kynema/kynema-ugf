@@ -1,0 +1,10 @@
+<map id="sierra::kynema_ugf::AFTNTildaNodeKernel" name="sierra::kynema_ugf::AFTNTildaNodeKernel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="27,328,197,373"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_node_kernel.html" title=" " alt="" coords="5,217,219,279"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,292,114,329,110,327,110,296"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1_node_kernel.html" title=" " alt="" coords="34,5,180,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,64,114,217,109,216,106,67"/>
+<area shape="rect" id="Node000004" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_node_kernel.html" title=" " alt="" coords="128,99,298,144"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="143,58,191,98,186,100,143,63"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="188,154,139,218,135,215,184,158"/>
+</map>

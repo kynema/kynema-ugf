@@ -1,0 +1,14 @@
+<map id="sierra::kynema_ugf::SutherlandsYkPropertyEvaluator" name="sierra::kynema_ugf::SutherlandsYkPropertyEvaluator">
+<area shape="rect" id="Node000001" title=" " alt="" coords="15,425,254,470"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_property_evaluator.html" title=" " alt="" coords="5,307,152,352"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,364,127,424,121,425,94,368"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="175,307,350,352"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="230,362,160,427,157,422,225,363"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="384,207,549,234"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="426,243,305,309,303,304,430,241"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="137,106,265,134"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="194,146,189,190,189,212,193,233,215,273,242,307,237,307,210,276,188,235,184,213,183,190,191,151"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="251,137,433,205,429,207,251,142"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="182,5,220,33"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="202,46,204,106,199,105,200,51"/>
+</map>

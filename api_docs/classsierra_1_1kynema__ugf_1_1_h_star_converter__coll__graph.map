@@ -1,0 +1,19 @@
+<map id="sierra::kynema_ugf::HStarConverter" name="sierra::kynema_ugf::HStarConverter">
+<area shape="rect" id="Node000001" title="Calculates reference heat loss parameter." alt="" coords="30,488,177,533"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_converter.html" title="Provides arbitrary processing of input data before handing off values to a Table for interpolation." alt="" coords="238,370,385,415"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="262,423,144,490,141,485,256,423"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="335,123,421,151"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="400,161,407,174,417,200,425,229,421,269,399,324,378,351,352,372,350,368,375,347,395,321,416,267,419,230,412,201,402,176,399,166"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="190,234,375,261"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="348,163,338,176,293,235,288,232,334,173,352,159"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="309,5,447,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="379,63,381,123,376,122,377,68"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="289,275,310,371,304,369,287,279"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="81,123,209,151"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="167,160,209,198,260,232,255,234,206,202,167,165"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="5,295,170,323"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="104,163,96,176,85,207,82,240,87,295,82,294,77,240,80,206,91,173,106,158"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="126,14,164,42"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="145,55,147,123,142,122,144,60"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="92,337,104,488,99,487,87,339"/>
+</map>

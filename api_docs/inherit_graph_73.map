@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classsierra_1_1kynema__ugf_1_1_converter.html" title="Provides arbitrary processing of input data before handing off values to a Table for interpolation." alt="" coords="5,179,152,223"/>
+<area shape="rect" id="Node000001" href="$classsierra_1_1kynema__ugf_1_1_chi_converter.html" title="Calculates reference scalar dissipation rate." alt="" coords="217,5,363,50"/>
+<area shape="poly" id="edge177_Node000000_Node000001" title=" " alt="" coords="100,165,142,111,169,84,198,60,222,49,218,52,201,65,172,88,146,115,105,167"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_delta_chi_converter.html" title="Calculates reference scalar dissipation rate." alt="" coords="215,75,364,119"/>
+<area shape="poly" id="edge178_Node000000_Node000002" title=" " alt="" coords="127,169,198,129,228,118,224,122,201,134,130,173"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1_delta_gamma_converter.html" title="Calculates reference heat loss parameter." alt="" coords="200,144,380,189"/>
+<area shape="poly" id="edge179_Node000000_Node000003" title=" " alt="" coords="166,184,202,180,197,183,168,189"/>
+<area shape="rect" id="Node000004" href="$classsierra_1_1kynema__ugf_1_1_gamma_converter.html" title="Calculates reference heat loss parameter." alt="" coords="217,213,363,258"/>
+<area shape="poly" id="edge180_Node000000_Node000004" title=" " alt="" coords="167,213,219,223,214,225,168,218"/>
+<area shape="rect" id="Node000005" href="$classsierra_1_1kynema__ugf_1_1_h_star_converter.html" title="Calculates reference heat loss parameter." alt="" coords="217,283,363,327"/>
+<area shape="poly" id="edge181_Node000000_Node000005" title=" " alt="" coords="129,229,201,268,229,282,224,283,198,273,128,234"/>
+<area shape="rect" id="Node000006" href="$classsierra_1_1kynema__ugf_1_1_name_converter.html" title="Does a whole bunch of nothing other than renaming variables." alt="" coords="217,352,363,397"/>
+<area shape="poly" id="edge182_Node000000_Node000006" title=" " alt="" coords="103,233,146,287,172,314,201,337,222,352,217,351,198,342,169,318,142,291,102,239"/>
+</map>

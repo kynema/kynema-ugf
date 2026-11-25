@@ -1,0 +1,17 @@
+<map id="sierra::kynema_ugf::RadarFilter" name="sierra::kynema_ugf::RadarFilter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="213,425,360,470"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="100,307,278,352"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,362,271,425,265,424,216,366"/>
+<area shape="rect" id="Node000003" href="$structvs_1_1_vector_t.html" title=" " alt="" coords="5,207,173,234"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,247,101,266,110,282,139,306,134,307,106,285,96,268,93,252"/>
+<area shape="rect" id="Node000004" href="$structvs_1_1_vector_t.html" title="Vector in 3D space." alt="" coords="67,106,199,134"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="120,150,97,207,92,205,122,145"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="176,5,215,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="178,48,144,107,139,104,181,43"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="197,207,325,234"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="206,46,259,206,254,206,204,50"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="204,245,193,260,186,283,187,308,182,306,180,282,188,257,207,241"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="311,316,475,344"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="340,233,360,243,376,257,386,270,392,286,395,316,391,314,386,287,381,273,372,260,357,248,340,238"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="374,354,308,427,305,422,369,356"/>
+</map>

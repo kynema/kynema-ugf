@@ -1,0 +1,22 @@
+<map id="sierra::kynema_ugf::OutputInfo" name="sierra::kynema_ugf::OutputInfo">
+<area shape="rect" id="Node000001" title=" " alt="" coords="184,500,330,545"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="184,123,271,151"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,163,239,174,251,269,257,362,260,501,254,499,251,362,245,269,234,175,235,169"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="5,289,170,317"/>
+<area shape="poly" id="edge8_Node000008_Node000002" title=" " alt="" coords="206,165,101,291,96,287,207,160"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="158,5,297,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="228,63,230,123,225,122,227,68"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="425,289,609,317"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="492,327,284,502,281,498,487,327"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="445,123,589,151"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="518,164,519,290,514,288,515,168"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="447,14,485,42"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="459,54,460,78,465,98,475,110,490,122,484,123,471,114,460,100,454,78,457,59"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="547,14,585,42"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="557,54,539,100,526,124,522,121,534,98,554,58"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="79,329,74,364,71,402,75,441,81,459,91,475,105,485,127,494,186,510,181,511,125,499,102,489,87,478,77,461,70,442,65,402,69,364,78,334"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="11,123,119,151"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="64,164,68,199,77,249,87,289,81,289,72,250,63,200,64,169"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="46,14,84,42"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="65,55,67,122,62,122,65,60"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="sierra::kynema_ugf::HDF5FilePtr" name="sierra::kynema_ugf::HDF5FilePtr">
+<area shape="rect" id="Node000001" title="Provides a HDF5 formatted file pointer." alt="" coords="224,364,371,408"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="16,254,201,282"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,292,151,316,178,337,226,363,221,364,175,342,148,320,127,297"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="260,123,346,151"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="361,146,383,157,400,173,405,186,405,197,400,222,396,258,389,287,376,313,354,341,328,366,326,361,350,338,372,310,384,285,391,258,395,222,400,197,400,187,395,176,380,161,361,151"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="253,159,226,177,200,200,175,224,130,256,127,252,172,220,197,196,223,172,257,156"/>
+<area shape="rect" id="Node000007" href="$classsierra_1_1kynema__ugf_1_1_h5_i_o.html" title="Simple wrapper around the HDF5 library to make usage easier." alt="" coords="224,246,371,291"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="303,164,301,247,296,245,300,168"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="234,5,372,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="304,63,305,124,300,122,302,68"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,123,134,151"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="66,163,68,193,73,221,83,238,96,254,91,255,78,241,68,223,62,194,65,169"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="50,14,89,42"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="70,55,72,123,67,122,69,60"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="299,305,300,364,295,362,296,308"/>
+</map>

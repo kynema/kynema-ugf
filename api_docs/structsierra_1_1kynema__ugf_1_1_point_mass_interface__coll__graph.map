@@ -1,0 +1,32 @@
+<map id="sierra::kynema_ugf::PointMassInterface" name="sierra::kynema_ugf::PointMassInterface">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1662,226,1816,270"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="743,5,929,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="944,30,1111,31,1204,36,1297,46,1396,64,1493,95,1568,121,1639,159,1682,191,1718,226,1713,225,1679,195,1636,164,1566,126,1491,100,1395,69,1296,51,1204,41,1110,36,945,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="161,105,317,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="332,103,745,47,742,51,333,109"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,237,44,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="54,226,66,218,213,131,211,136,69,222,59,229"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="178,237,300,265"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="58,248,180,249,176,253,60,253"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="367,377,496,405"/>
+<area shape="poly" id="edge15_Node000011_Node000004" title=" " alt="" coords="54,271,69,279,147,312,227,340,369,377,365,380,226,345,145,317,67,284,56,276"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="1123,336,1296,363"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1312,353,1400,352,1491,341,1546,327,1601,308,1690,272,1695,270,1603,313,1548,332,1492,346,1400,357,1312,359"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="315,262,424,281,546,299,706,315,864,328,1125,345,1120,346,864,333,705,320,546,304,423,286,315,268"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="546,237,719,265"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="315,248,548,249,543,252,316,253"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="749,110,923,138"/>
+<area shape="poly" id="edge10_Node000008_Node000006" title=" " alt="" coords="298,230,340,218,561,170,751,137,747,139,562,175,342,223,300,234"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="735,241,743,240,995,233,1191,231,1638,240,1664,244,1659,244,1638,245,1191,236,995,238,743,245,736,246"/>
+<area shape="rect" id="Node000010" href="$structsierra_1_1kynema__ugf_1_1_tether.html" title=" " alt="" coords="953,262,1099,306"/>
+<area shape="poly" id="edge13_Node000010_Node000007" title=" " alt="" coords="679,268,744,288,798,294,853,296,955,293,950,294,853,301,797,299,743,293,679,274"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="936,105,1027,92,1123,83,1210,76,1248,77,1297,83,1396,105,1471,131,1545,164,1639,203,1689,226,1683,225,1637,208,1542,168,1469,136,1395,110,1296,88,1248,82,1210,81,1123,88,1027,98,937,110"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="1320,262,1492,306"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="1507,277,1637,265,1659,265,1664,264,1638,270,1507,282"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="1115,282,1322,284,1317,284,1115,287"/>
+<area shape="poly" id="edge14_Node000009_Node000011" title=" " alt="" coords="511,398,696,415,810,422,928,426,1043,424,1147,416,1234,400,1268,387,1295,373,1305,360,1307,345,1309,328,1318,312,1326,308,1331,306,1322,315,1314,330,1312,346,1310,362,1298,377,1270,392,1235,405,1148,422,1043,430,928,431,809,427,696,420,511,403"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="1363,440,1449,467"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="1464,456,1505,456,1550,452,1595,440,1636,420,1672,387,1699,346,1717,304,1730,272,1734,269,1722,306,1703,348,1676,390,1639,424,1597,445,1551,457,1505,462,1464,462"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="957,446,1095,490"/>
+<area shape="poly" id="edge17_Node000012_Node000013" title=" " alt="" coords="1111,462,1360,455,1365,455,1111,468"/>
+</map>

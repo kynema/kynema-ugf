@@ -1,0 +1,9 @@
+<map id="sierra::kynema_ugf::actuator_utils::SweptPointLocator" name="sierra::kynema_ugf::actuator_utils::SweptPointLocator">
+<area shape="rect" id="Node000001" title="Implementation of a periodic Bezier curve (Sanchez&#45;Reyes, 2009) to connect points at a specific radiu..." alt="" coords="5,330,205,391"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="28,207,182,234"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,248,108,330,102,329,103,251"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="41,106,169,134"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="106,147,108,206,102,206,104,152"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="86,5,124,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="106,46,108,106,102,105,104,51"/>
+</map>

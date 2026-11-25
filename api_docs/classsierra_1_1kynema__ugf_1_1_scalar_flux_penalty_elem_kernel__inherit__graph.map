@@ -1,0 +1,5 @@
+<map id="sierra::kynema_ugf::ScalarFluxPenaltyElemKernel&lt; BcAlgTraits &gt;" name="sierra::kynema_ugf::ScalarFluxPenaltyElemKernel&lt; BcAlgTraits &gt;">
+<area shape="rect" id="Node000001" title="specificed open bc (face/elem) kernel for continuity equation (pressure DOF)" alt="" coords="5,98,226,160"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_kernel.html" title="Base class for computational kernels in KynemaUGF." alt="" coords="42,5,189,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,63,118,99,113,97,114,68"/>
+</map>

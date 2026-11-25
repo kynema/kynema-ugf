@@ -1,0 +1,16 @@
+<map id="sierra::kynema_ugf::ActuatorMetaSimple" name="sierra::kynema_ugf::ActuatorMetaSimple">
+<area shape="rect" id="Node000001" title=" " alt="" coords="53,418,216,463"/>
+<area shape="rect" id="Node000002" href="$structsierra_1_1kynema__ugf_1_1_actuator_meta.html" title="Meta data for working with actuator fields This is an example of meta data that will be used to const..." alt="" coords="271,324,417,369"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="283,375,185,420,183,415,278,376"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="47,224,232,251"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="137,264,133,324,133,369,135,419,130,417,128,369,128,324,135,269"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="179,256,305,322,300,325,178,262"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="31,123,118,151"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="83,163,102,198,125,223,120,224,98,201,83,168"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,5,144,50"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="75,63,77,123,72,122,74,68"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="142,123,271,151"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="190,167,171,201,153,225,149,222,167,198,193,162"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="187,14,226,42"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="207,55,209,123,204,122,206,60"/>
+</map>

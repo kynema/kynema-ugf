@@ -1,0 +1,9 @@
+<map id="sierra::kynema_ugf::ActuatorInfoNGP" name="sierra::kynema_ugf::ActuatorInfoNGP">
+<area shape="rect" id="Node000001" title="Data structure to stash turbine info during parsing Data structure to stash turbine info during parsi..." alt="" coords="52,217,198,262"/>
+<area shape="rect" id="Node000002" href="$structsierra_1_1kynema__ugf_1_1_coordinates.html" title=" " alt="" coords="5,99,152,144"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,156,106,192,117,217,112,216,101,194,89,161"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="175,108,262,136"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,147,167,195,146,219,143,215,163,191,198,150"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="149,5,288,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="220,64,221,109,216,107,217,68"/>
+</map>

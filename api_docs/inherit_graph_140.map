@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classsierra_1_1kynema__ugf_1_1_initial_condition.html" title=" " alt="" coords="5,75,152,119"/>
+<area shape="rect" id="Node000001" href="$structsierra_1_1kynema__ugf_1_1_constant_initial_condition_data.html" title=" " alt="" coords="217,5,434,50"/>
+<area shape="poly" id="edge207_Node000000_Node000001" title=" " alt="" coords="165,69,199,60,244,49,239,52,200,65,168,74"/>
+<area shape="rect" id="Node000002" href="$structsierra_1_1kynema__ugf_1_1_string_function_initial_condition_data.html" title=" " alt="" coords="200,75,452,119"/>
+<area shape="poly" id="edge208_Node000000_Node000002" title=" " alt="" coords="166,94,202,96,197,98,167,100"/>
+<area shape="rect" id="Node000003" href="$structsierra_1_1kynema__ugf_1_1_user_function_initial_condition_data.html" title=" " alt="" coords="204,144,448,189"/>
+<area shape="poly" id="edge209_Node000000_Node000003" title=" " alt="" coords="167,120,200,129,244,143,239,144,199,134,166,125"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="sierra::kynema_ugf::MomentumBoussinesqNodeKernel" name="sierra::kynema_ugf::MomentumBoussinesqNodeKernel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="27,350,280,395"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_node_kernel.html" title=" " alt="" coords="5,239,302,301"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,315,156,351,151,349,152,319"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1_node_kernel.html" title=" " alt="" coords="75,5,221,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="151,64,155,239,150,238,147,67"/>
+<area shape="rect" id="Node000004" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_node_kernel.html" title=" " alt="" coords="170,99,340,144"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="185,58,232,98,227,100,185,63"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="233,155,176,241,172,237,229,159"/>
+</map>

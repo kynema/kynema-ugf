@@ -1,0 +1,5 @@
+<map id="sierra::kynema_ugf::ABLWallFrictionVelAlg&lt; BcAlgTraits &gt;" name="sierra::kynema_ugf::ABLWallFrictionVelAlg&lt; BcAlgTraits &gt;">
+<area shape="rect" id="Node000001" title="Compute the wall friction velocity at integration points for the wall boundary of a given topology." alt="" coords="5,98,176,160"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_algorithm.html" title=" " alt="" coords="17,5,164,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,63,93,98,88,97,89,68"/>
+</map>

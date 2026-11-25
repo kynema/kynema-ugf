@@ -1,0 +1,16 @@
+<map id="sierra::kynema_ugf::MeshMotionInfo" name="sierra::kynema_ugf::MeshMotionInfo">
+<area shape="rect" id="Node000001" title=" " alt="" coords="135,347,281,391"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="16,224,202,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,264,124,294,139,321,166,346,161,346,135,324,120,296,112,269"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="31,123,118,151"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="72,163,79,199,96,223,91,224,74,201,71,169"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,5,144,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="75,63,77,123,72,122,74,68"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="193,123,321,151"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="201,159,172,177,124,225,120,221,169,173,205,155"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="226,224,390,251"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="273,162,281,173,305,224,299,223,276,176,272,167"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="238,14,276,42"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="258,55,260,123,255,122,256,60"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="301,264,289,296,271,324,245,348,242,344,267,321,285,293,297,268"/>
+</map>

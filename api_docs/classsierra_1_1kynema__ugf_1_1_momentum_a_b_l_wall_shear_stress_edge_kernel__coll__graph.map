@@ -1,0 +1,12 @@
+<map id="sierra::kynema_ugf::MomentumABLWallShearStressEdgeKernel&lt; BcAlgTraits &gt;" name="sierra::kynema_ugf::MomentumABLWallShearStressEdgeKernel&lt; BcAlgTraits &gt;">
+<area shape="rect" id="Node000001" title="This class applies the computed wall shear stress field to the boundary." alt="" coords="1020,49,1253,111"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_kernel.html" title=" " alt="" coords="622,5,911,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="926,49,996,58,1022,63,1016,63,995,63,926,55"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1_kernel.html" title="Base class for computational kernels in KynemaUGF." alt="" coords="5,11,152,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="167,25,365,17,482,16,598,19,625,23,619,23,598,24,482,22,365,23,168,31"/>
+<area shape="rect" id="Node000004" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_kernel.html" title="Kernel that can be transferred to a device." alt="" coords="201,44,347,89"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="167,46,203,54,198,55,168,51"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="363,66,371,66,485,70,535,70,598,66,619,66,625,66,599,71,535,76,485,76,371,71,363,71"/>
+<area shape="rect" id="Node000005" href="$classsierra_1_1kynema__ugf_1_1_master_element.html" title=" " alt="" coords="693,91,840,136"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="855,112,924,110,995,105,1017,105,1022,104,996,110,924,116,855,117"/>
+</map>

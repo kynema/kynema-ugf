@@ -1,0 +1,10 @@
+<map id="sierra::kynema_ugf::ScalarFluxBCElemKernel&lt; BcAlgTraits &gt;" name="sierra::kynema_ugf::ScalarFluxBCElemKernel&lt; BcAlgTraits &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="27,350,216,412"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_kernel.html" title=" " alt="" coords="5,239,238,301"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,314,124,351,119,349,120,318"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1_kernel.html" title="Base class for computational kernels in KynemaUGF." alt="" coords="43,5,189,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,64,123,239,118,238,115,67"/>
+<area shape="rect" id="Node000004" href="$classsierra_1_1kynema__ugf_1_1_n_g_p_kernel.html" title="Kernel that can be transferred to a device." alt="" coords="138,99,284,144"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="149,58,191,98,186,100,150,64"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="191,155,142,241,137,238,188,159"/>
+</map>

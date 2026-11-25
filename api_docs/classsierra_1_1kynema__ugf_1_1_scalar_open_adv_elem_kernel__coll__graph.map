@@ -1,0 +1,14 @@
+<map id="sierra::kynema_ugf::ScalarOpenAdvElemKernel&lt; BcAlgTraits &gt;" name="sierra::kynema_ugf::ScalarOpenAdvElemKernel&lt; BcAlgTraits &gt;">
+<area shape="rect" id="Node000001" title="Symmetry kernel for scalar equation." alt="" coords="924,66,1126,128"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_kernel.html" title="Base class for computational kernels in KynemaUGF." alt="" coords="577,5,724,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="739,37,900,64,926,71,921,71,899,69,739,42"/>
+<area shape="rect" id="Node000003" href="$classsierra_1_1kynema__ugf_1_1_master_element.html" title=" " alt="" coords="577,75,724,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="739,94,926,97,920,97,739,100"/>
+<area shape="rect" id="Node000004" href="$classsierra_1_1kynema__ugf_1_1_peclet_function.html" title=" " alt="" coords="535,144,766,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="781,145,899,125,921,123,926,122,900,130,782,151"/>
+<area shape="rect" id="Node000005" href="$classsierra_1_1kynema__ugf_1_1_peclet_function_base.html" title="Non&#45;templated empty base class for storing pointers to templated instances." alt="" coords="5,148,162,193"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="177,164,211,162,361,156,511,156,538,159,532,159,511,161,361,161,211,168,178,169"/>
+<area shape="rect" id="Node000006" href="$classsierra_1_1kynema__ugf_1_1_peclet_function.html" title=" " alt="" coords="211,177,373,222"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="177,181,213,188,208,188,177,186"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="388,191,511,181,532,181,538,181,512,186,389,196"/>
+</map>

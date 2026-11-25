@@ -1,0 +1,13 @@
+<map id="CourantReReduceHelper.h" name="CourantReReduceHelper.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="192,5,384,33"/>
+<area shape="rect" id="Node000002" href="$_kokkos_interface_8h.html" title=" " alt="" coords="219,81,357,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="290,31,290,67,286,64,286,36"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,157,75,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="244,112,90,157,89,152,243,107"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="98,157,286,184"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="273,108,222,149,220,145,268,110"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="309,157,459,184"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="306,107,358,147,352,147,304,112"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="483,157,616,184"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="335,107,491,152,485,152,334,112"/>
+</map>

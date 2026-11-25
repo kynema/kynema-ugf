@@ -1,0 +1,12 @@
+<map id="sierra::kynema_ugf::StateTable" name="sierra::kynema_ugf::StateTable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="19,425,166,470"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,307,180,352"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,366,95,425,90,424,90,370"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="276,207,440,234"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="310,243,148,309,145,304,312,238"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="28,106,157,134"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="89,146,85,207,86,261,91,307,86,307,81,261,80,207,88,151"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="142,137,325,204,320,208,142,142"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="73,5,112,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="93,46,95,106,90,105,92,51"/>
+</map>

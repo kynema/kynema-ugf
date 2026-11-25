@@ -1,0 +1,5 @@
+<map id="sierra::kynema_ugf::ProjectedNodalGradientEquationSystem" name="sierra::kynema_ugf::ProjectedNodalGradientEquationSystem">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,98,247,160"/>
+<area shape="rect" id="Node000002" href="$classsierra_1_1kynema__ugf_1_1_equation_system.html" title="Base class representation of a PDE." alt="" coords="53,5,199,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,63,128,99,124,97,124,68"/>
+</map>

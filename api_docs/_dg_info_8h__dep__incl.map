@@ -1,0 +1,27 @@
+<map id="DgInfo.h" name="DgInfo.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1578,5,1655,33"/>
+<area shape="rect" id="Node000002" href="$_assemble_continuity_non_conformal_solver_algorithm_8_c.html" title=" " alt="" coords="5,81,252,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1560,21,1354,26,1034,35,654,53,457,67,265,84,253,85,252,80,264,78,457,61,654,48,1034,30,1354,21,1565,21"/>
+<area shape="rect" id="Node000003" href="$_assemble_momentum_non_conformal_solver_algorithm_8_c.html" title=" " alt="" coords="276,81,530,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1560,22,1140,41,845,58,543,84,531,85,531,80,543,78,845,53,1140,35,1565,22"/>
+<area shape="rect" id="Node000004" href="$_assemble_nodal_grad_non_conformal_algorithm_8_c.html" title=" " alt="" coords="555,81,803,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1560,23,1246,45,1033,62,815,84,804,85,804,80,815,78,1032,57,1246,40,1566,23"/>
+<area shape="rect" id="Node000005" href="$_assemble_nodal_grad_u_non_conformal_algorithm_8_c.html" title=" " alt="" coords="827,81,1086,126"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1565,26,1098,84,1086,85,1086,80,1097,78,1560,26"/>
+<area shape="rect" id="Node000006" href="$_assemble_p_n_g_non_conformal_solver_algorithm_8_c.html" title=" " alt="" coords="1110,81,1358,126"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1566,32,1336,83,1335,78,1560,32"/>
+<area shape="rect" id="Node000007" href="$_assemble_scalar_non_conformal_solver_algorithm_8_c.html" title=" " alt="" coords="1382,81,1601,126"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1587,41,1525,83,1524,78,1581,42"/>
+<area shape="rect" id="Node000008" href="$_assemble_wall_dist_non_conformal_algorithm_8_c.html" title=" " alt="" coords="1625,81,1858,126"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1650,39,1711,81,1706,80,1648,44"/>
+<area shape="rect" id="Node000009" href="$_compute_mdot_non_conformal_algorithm_8_c.html" title=" " alt="" coords="1882,90,2167,117"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1670,29,1961,89,1956,89,1670,34"/>
+<area shape="rect" id="Node000010" href="$_dg_info_8_c.html" title=" " alt="" coords="2191,90,2268,117"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1670,19,1767,22,1894,32,2037,50,2180,78,2205,89,2200,89,2178,84,2036,55,1894,37,1767,28,1670,24"/>
+<area shape="rect" id="Node000011" href="$_non_conformal_info_8_c.html" title=" " alt="" coords="2293,90,2446,117"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1671,20,1934,38,2107,55,2281,78,2322,89,2317,89,2280,84,2106,60,1934,43,1671,26"/>
+<area shape="rect" id="Node000012" href="$_tpetra_linear_system_8_c.html" title=" " alt="" coords="2471,90,2636,117"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1670,19,1808,24,2004,34,2230,51,2460,78,2504,89,2498,89,2459,84,2230,57,2004,39,1808,29,1670,24"/>
+<area shape="rect" id="Node000013" href="$_tpetra_segregated_linear_system_8_c.html" title=" " alt="" coords="2661,90,2900,117"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="1670,19,2077,35,2360,53,2649,78,2709,89,2704,89,2648,84,2360,58,2077,40,1670,24"/>
+</map>

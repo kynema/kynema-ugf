@@ -1,0 +1,13 @@
+<map id="sierra::kynema_ugf::kynema_ugf_ngp::NgpReduceArray&lt; ScalarType, N &gt;" name="sierra::kynema_ugf::kynema_ugf_ngp::NgpReduceArray&lt; ScalarType, N &gt;">
+<area shape="rect" id="Node000001" title="A custom Kokkos reduction operator for array types." alt="" coords="5,176,228,238"/>
+<area shape="rect" id="Node000002" href="$structsierra_1_1kynema__ugf_1_1kynema__ugf__ngp_1_1_ngp_reduce_array.html" title=" " alt="" coords="406,5,628,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,165,208,139,251,116,328,85,407,62,403,65,329,90,253,121,211,144,173,169"/>
+<area shape="rect" id="Node000003" href="$structsierra_1_1kynema__ugf_1_1kynema__ugf__ngp_1_1_ngp_reduce_array.html" title=" " alt="" coords="406,91,628,152"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="242,176,251,174,408,142,404,145,252,179,244,180"/>
+<area shape="rect" id="Node000004" href="$structsierra_1_1kynema__ugf_1_1kynema__ugf__ngp_1_1_ngp_reduce_array.html" title=" " alt="" coords="406,176,628,238"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="243,204,407,205,403,208,244,209"/>
+<area shape="rect" id="Node000005" href="$structsierra_1_1kynema__ugf_1_1kynema__ugf__ngp_1_1_ngp_reduce_array.html" title=" " alt="" coords="406,261,628,323"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="242,233,252,235,407,268,403,271,251,240,243,238"/>
+<area shape="rect" id="Node000006" href="$structsierra_1_1kynema__ugf_1_1kynema__ugf__ngp_1_1_ngp_reduce_array.html" title=" " alt="" coords="406,347,628,408"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="171,244,211,269,253,292,329,323,408,350,402,350,328,328,251,297,208,274,171,249"/>
+</map>
