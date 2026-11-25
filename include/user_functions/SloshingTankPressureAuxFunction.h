@@ -20,7 +20,13 @@ namespace kynema_ugf {
 class SloshingTankPressureAuxFunction : public AuxFunction
 {
 public:
-  SloshingTankPressureAuxFunction(const std::vector<double>& params);
+  // params: [water level, amplitude, kappa, interface thickness, domain
+  // height,] gravity_z. The phase densities must match the density material
+  // property so that the initial pressure is in hydrostatic balance.
+  SloshingTankPressureAuxFunction(
+    const std::vector<double>& params,
+    const double density_liquid,
+    const double density_gas);
 
   virtual ~SloshingTankPressureAuxFunction() {}
 
@@ -41,6 +47,8 @@ public:
   double interface_thickness_;
   double domain_height_;
   double g_;
+  double density_liquid_;
+  double density_gas_;
 };
 
 } // namespace kynema_ugf
