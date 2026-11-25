@@ -294,6 +294,9 @@ TimeIntegrator::prepare_time_step(size_t inonlin)
 void
 TimeIntegrator::pre_realm_advance_stage1(size_t inonlin)
 {
+  // Modular coupling: predict_inputs() should consume staged external fields
+  // before geometry updates. Keep clock advancement, state swapping, and
+  // initial prediction at iteration zero; retries must not repeat them.
   std::vector<Realm*>::iterator ii;
 
   if (inonlin < 1) {
@@ -334,6 +337,10 @@ TimeIntegrator::pre_realm_advance_stage1(size_t inonlin)
 void
 TimeIntegrator::pre_realm_advance_stage2(size_t inonlin)
 {
+  // Modular coupling: retain this post-connectivity phase behind the native
+  // prepare_solution_exchange() hook, even in standalone/no-Tioga operation.
+  // A receive_inputs()/set_inputs() path must also handle updated coupled
+  // boundary data on later iterations; first-step file transfer is not enough.
 
   for (auto realm : realmVec_) {
     realm->update_graph_connectivity_and_coordinates_due_to_mesh_motion();
@@ -433,6 +440,9 @@ TimeIntegrator::integrate_realm()
 void
 TimeIntegrator::post_realm_advance()
 {
+  // Modular coupling: this is once-per-step finalize_time_step(), not
+  // calculate_outputs(). Publish coupling data after each solve without
+  // repeating post-converged work, IO transfers, restart writes, or dt history.
   std::vector<Realm*>::iterator ii;
 
   // process any post converged work
